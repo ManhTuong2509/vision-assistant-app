@@ -1,7 +1,7 @@
 # 0. Clone github này
 
-    git clone https://github.com/thainguyen3250/ComputerVisionProj
-    
+    git clone https://github.com/ManhTuong2509/vision-assistant-app.git
+
     git push origin main
 
 # 1. Tạo Môi Trường Ảo
@@ -106,6 +106,13 @@ Bước 3: Cắm điện thoại (Android) vào -> vào file mobile/lib/main.dar
 
 xong bước này thì có thể rút dây kết nối giữa điện thoại và máy tính và không cần cắm nữa
 
-# 5 Lưu Ý
+# 5 lấy api
 
+Cần lấy 2 api:
+- 1 là api gemini
+- 2 là api của openweathermap (đăng ký tài khoản trên openweathermap.org, sau đó tạo key api)
+- 3 lấy link server ngrok
+- Sau khi có đủ 3 cái, thì vô file đồ án gốc cd mobile -> tạo file .env (copy 3 đoạn code sau gắn vô file vừa tạo GEMINI_API_KEY="api của bạn", OPENWEATHER_API_KEY="api của bạn", NGROK_BASE_URL="url của bạn")
+- Sau đó cd.. tạo tiếp 1 file .env nữa lần này chỉ cần gắn 1 đoạn code GEMINI_API_KEY="api của bạn" thôi.
+# 6 lưu ý
 khi đã làm xong các bước trên thì chỉ cần chạy server (FastAPI), vào ứng dụng trên điện thoại là chạy được bình thường
