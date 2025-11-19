@@ -1,0 +1,38 @@
+name: mobile
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  english_words: ^4.0.0
+  provider: ^6.1.5
+  http: ^1.5.0
+  camera: ^0.11.3
+  gal: ^2.3.2
+  flutter_tts: ^4.2.3
+  google_generative_ai: ^0.4.0 
+  speech_to_text: ^7.3.0
+  intl: ^0.19.0
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "asset/icon/Abyss.png" 
+  min_sdk_android: 21

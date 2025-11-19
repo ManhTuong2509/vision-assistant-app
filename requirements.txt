@@ -1,0 +1,27 @@
+# === Core Deep Learning stack (CUDA 12.4) ===
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+
+# === NLP / Transformers ===
+transformers>=4.45
+accelerate
+safetensors
+sentencepiece
+google-generativeai 
+python-dotenv
+easyocr
+numpy
+# === Translation & Speech ===
+googletrans==4.0.0-rc1
+deep-translator
+edge-tts
+nest_asyncio
+playsound==1.2.2
+# === Optional utilities (recommended) ===
+datasets
+peft
+bitsandbytes
+fastapi
+uvicorn
